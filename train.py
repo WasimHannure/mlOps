@@ -15,7 +15,7 @@ print("Downloading dataset...")
 
 s3.download_file(
     bucket,
-    "datasets/customer_data.csv",
+    "customer_data.csv",
     "customer_data.csv"
 )
 
